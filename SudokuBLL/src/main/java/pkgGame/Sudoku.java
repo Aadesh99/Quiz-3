@@ -268,5 +268,6 @@ public class Sudoku extends LatinSquare {
 		}
 
 	}
-
-}
+	public int getRegionNbr(int iCol, int iRow) {
+		return ((iRow / iSqrtSize) * iSqrtSize)+(iCol / iSqrtSize);
+}}
